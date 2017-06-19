@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    tools:context="app.project.sinsin.project.ListViewActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTenBacSy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sin Sin"
+            android:paddingLeft="16dp"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="16dp">
+
+            <Button
+                android:id="@+id/btnGoi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/call"
+                android:textColor="@color/background"
+                android:backgroundTint="@color/background_button"
+                android:text="GỌI" />
+
+            <Button
+                android:id="@+id/btnMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="5dp"
+
+                android:src="@drawable/mail"
+                android:textColor="@color/background"
+                android:backgroundTint="@color/background_button"
+                android:text="EMAIL" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
